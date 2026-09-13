@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+.env
+.env.*
+!.env.example
+data/
+tmp/
+output/
+test-results/
+*.log
+.DS_Store

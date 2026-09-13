@@ -1,0 +1,11 @@
+# Replace APP_ORIGIN with the actual HTTPS service URL after the first deployment.
+# No passwords or API keys belong in this file.
+NODE_ENV: production
+DEMO_MODE: "false"
+APP_ORIGIN: "https://replace-with-your-cloud-run-url"
+PGHOST: "/cloudsql/retrofitpathfinder:europe-west1:retrofit-db"
+PGDATABASE: "retrofit"
+PGUSER: "retrofit_app"
+OPENAI_MODEL: "gpt-4.1-mini"
+RETENTION_DAYS: "365"
+AUDIT_RETENTION_DAYS: "730"
